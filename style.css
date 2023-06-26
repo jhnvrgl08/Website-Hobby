@@ -80,7 +80,7 @@
     position: fixed;
     right: -250px;
     top: 0;
-    background: linear-gradient(rgba(0,0,0,0.5),#3f4043),url(banner.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),#3f4043),url(img/banner.jpg);
     z-index: 2;
     transition: 0.5s;
 }
@@ -243,16 +243,18 @@ nav ul li a{
 }
 
 
-.single-service {
+.poetry-card {
     flex-basis: 48%;
     text-align: center;
     border-radius: 7px;
-    margin-bottom: 20x; 
+    margin-top: 20x; 
     color: #f5f5dc43;
     position: relative;
+    margin-bottom: 20px;
+
 }
 
-.single-service img {
+.poetry-card img {
     width: 100%;
     border-radius: 7px;
 }
@@ -271,12 +273,12 @@ nav ul li a{
     transition: 1s;
 }
 
-.single-service:hover .overlay {
+.poetry-card:hover .overlay {
     opacity: 1;
 }
 
 
-.service-desc {
+.poem-desc {
   width: 80%;  
   position: absolute;
   bottom: 0;
@@ -295,37 +297,37 @@ hr {
     margin-left: -1%;
 }
 
-.service-desc h3 {
+.poem-desc h3 {
     font-size: 20px;
     text-align: justify;
     
 }
 
-.service-desc p {
+.poem-desc p {
     font-size: 20px;
     text-align: justify;
     line-height: 1;    
 }
 
 
-.single-service:hover .service-desc {
+.poetry-card:hover .poem-desc {
     bottom: 40%;
     opacity: 1;
 }
 
 @media screen and (max-width: 770px){
-    .single-service{
+    .poetry-card{
         flex-basis: 100%;
         margin-bottom: 30px;
     }
-    .service-desc p {
+    .poem-desc p {
         font-size: 12px;
     }
 
     hr {
         margin: 5px auto;
     }
-    .single-service:hover .service-desc {
+    .poetry-card:hover .poem-desc {
         bottom: 25% !important;
         opacity: 1;
     }
