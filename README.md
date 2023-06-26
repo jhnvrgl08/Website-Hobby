@@ -1,4 +1,5 @@
 My Hobby
+
 This is a simple HTML website that showcases my hobby of writing poetry. It consists of different sections such as a banner, navigation menu, features, and my own writings. Each section provides information and visuals related to poetry.
 
 Table of Contents
